@@ -90,6 +90,9 @@ namespace Plank
 		[Description(nick = "tooltips-enabled", blurb = "Whether to show tooltips when items are hovered.")]
 		public bool TooltipsEnabled { get; set; }
 		
+		[Description(nick = "background-glow-enabled", blurb = "Whether to show background glow on active icons.")]
+		public bool BackgroundGlowEnabled { get; set; }
+
 		/**
 		 * {@inheritDoc}
 		 */
